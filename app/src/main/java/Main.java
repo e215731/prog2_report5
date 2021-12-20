@@ -1,8 +1,18 @@
-import org.checkerframework.checker.units.qual.s;
 
 public class Main {
-    public static void main(String[] args){
-        String str = null;
-        System.out.println(str.length());
+    public static void main(String[] args) {
+        /*
+        try{
+            String str = null;
+            System.out.println(str.length());
+        }catch(NullPointerException e){
+            System.out.println("NullPointerExceptionが発生した");
+            System.out.println(e.getMessage());
+        }
+        */
+
+        String str = "百二十三";
+        int value = Integer.parseInt(str);
+
     }
 }
